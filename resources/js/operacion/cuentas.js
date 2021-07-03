@@ -90,7 +90,7 @@ $(function() {
 
         let dataForm = $("#formNewCuenta").serializeArray();
         let mesa_id = $("#mesa-id").val();
-        let url = currentURL + '/cuentas/';
+        let url = currentURL + '/cuentas';
         var _token = $("meta[name=csrf-token]").attr("content");
 
         $.post(url, {
