@@ -46,10 +46,21 @@ class MesasController extends Controller
     {
         $mesa = $this->mesas::active()->orderBy('num_mesa', 'desc')->limit(1)->first();
 
+        if ( $mesa == NULL )
+        {
+            $n = 1;
+        }
+        else
+        {
+            $n = ( $mesa->num_mesa + 1 );
+        }
+
+
+
         $this->mesas::create([
             'ocupada' => 0,
             'activo' => 1,
-            'num_mesa' => ( $mesa->num_mesa + 1 )
+            'num_mesa' => $n
         ]);
         /**
          * Redirigimos a la ruta index
