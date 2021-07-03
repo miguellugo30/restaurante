@@ -1,0 +1,60 @@
+.auth-links {
+    margin-top: 10px;
+}
+
+.login-page,
+.register-page {
+    background-image: url("../../../../img/fondo.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+}
+
+.login-logo a,
+.register-logo a {
+    color: #fff !important;
+}
+
+.form-login {
+    background-color: rgba(255, 255, 255, 0.76) !important;
+    border-radius: 10px !important;
+}
+
+.login-card-body .input-group .input-group-text {
+    color: #000 !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border: 1px solid #000000;
+    border-top-color: rgb(206, 212, 218);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(206, 212, 218);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(206, 212, 218);
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+.card {
+    border-top: 0px !important;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0) !important;
+    color: #000;
+}
+
+.login-card-body,
+.register-card-body {
+    background: none !important;
+    color: #ffffff !important;
+}
+
+.form-control {
+    background-color: transparent !important;
+    color: #000 !important;
+    border: 0px !important;
+    border-bottom-color: currentcolor !important;
+    border-bottom-style: none !important;
+    border-bottom-width: 0px !important;
+    border-bottom: 1px solid !important;
+    font-weight: bold !important;
+}
